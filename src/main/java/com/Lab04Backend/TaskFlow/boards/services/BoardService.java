@@ -25,8 +25,8 @@ public class BoardService {
     public BoardResponse createBoard(CreateBoardRequest request) {
         Board board = Board.builder()
             .status(request.status())
-            .userIds(request.userIds() != null ? request.userIds() : new ArrayList<>())
-            .adminIds(request.adminIds() != null ? request.adminIds() : new ArrayList<>())
+            .users(request.users())
+            .admins(request.admins())
             .build();
 
         Board savedBoard = boardRepository.save(board);

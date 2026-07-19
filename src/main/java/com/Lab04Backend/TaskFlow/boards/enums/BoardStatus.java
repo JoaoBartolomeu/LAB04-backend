@@ -1,4 +1,4 @@
-package com.Lab04Backend.TaskFlow.boards.models;
+package com.Lab04Backend.TaskFlow.boards.enums;
 
 public enum BoardStatus {
     ACTIVE,
