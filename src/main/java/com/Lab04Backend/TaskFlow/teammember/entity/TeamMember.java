@@ -1,8 +1,8 @@
 package com.Lab04Backend.TaskFlow.teammember.entity;
 
-import com.Lab04Backend.TaskFlow.models.Members;
-import com.Lab04Backend.TaskFlow.models.Teams;
-import com.Lab04Backend.TaskFlow.models.enums.MemberRole;
+import com.Lab04Backend.TaskFlow.member.entity.Members;
+import com.Lab04Backend.TaskFlow.team.entity.Teams;
+import com.Lab04Backend.TaskFlow.member.enums.MemberRole;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;

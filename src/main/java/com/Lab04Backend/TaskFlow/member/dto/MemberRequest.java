@@ -1,4 +1,4 @@
-package com.Lab04Backend.TaskFlow.dtos.member;
+package com.Lab04Backend.TaskFlow.member.dto;
 
 import com.Lab04Backend.TaskFlow.user.entity.User;
 import jakarta.validation.constraints.NotNull;

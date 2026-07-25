@@ -1,4 +1,4 @@
-package com.Lab04Backend.TaskFlow.models.enums;
+package com.Lab04Backend.TaskFlow.member.enums;
 
 import com.Lab04Backend.TaskFlow.exceptions.IllegalRoleException;
 

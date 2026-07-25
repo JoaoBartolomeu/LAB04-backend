@@ -1,8 +1,8 @@
 package com.Lab04Backend.TaskFlow.controllers;
 
-import com.Lab04Backend.TaskFlow.dtos.teams.TeamsRequest;
-import com.Lab04Backend.TaskFlow.dtos.teams.TeamsResponse;
-import com.Lab04Backend.TaskFlow.services.TeamsService;
+import com.Lab04Backend.TaskFlow.team.dto.TeamsRequest;
+import com.Lab04Backend.TaskFlow.team.dto.TeamsResponse;
+import com.Lab04Backend.TaskFlow.team.services.TeamsService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

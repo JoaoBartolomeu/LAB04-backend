@@ -1,7 +1,7 @@
 package com.Lab04Backend.TaskFlow.user.services;
 
-import com.Lab04Backend.TaskFlow.models.Members;
-import com.Lab04Backend.TaskFlow.repositories.MemberRepository;
+import com.Lab04Backend.TaskFlow.member.entity.Members;
+import com.Lab04Backend.TaskFlow.member.repository.MemberRepository;
 import com.Lab04Backend.TaskFlow.user.dtos.RegisterUserDTO;
 import com.Lab04Backend.TaskFlow.user.entity.User;
 import com.Lab04Backend.TaskFlow.user.exceptions.EmailAlreadyExistsException;
