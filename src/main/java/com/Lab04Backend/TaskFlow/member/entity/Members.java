@@ -1,6 +1,5 @@
-package com.Lab04Backend.TaskFlow.models;
+package com.Lab04Backend.TaskFlow.member.entity;
 
-import com.Lab04Backend.TaskFlow.models.enums.MemberRole;
 import com.Lab04Backend.TaskFlow.user.entity.User;
 import jakarta.persistence.*;
 import lombok.*;

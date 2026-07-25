@@ -1,7 +1,7 @@
-package com.Lab04Backend.TaskFlow.dtos.member;
+package com.Lab04Backend.TaskFlow.member.dto;
 
-import com.Lab04Backend.TaskFlow.models.Members;
-import com.Lab04Backend.TaskFlow.models.enums.MemberRole;
+import com.Lab04Backend.TaskFlow.member.entity.Members;
+import com.Lab04Backend.TaskFlow.member.enums.MemberRole;
 import com.Lab04Backend.TaskFlow.teammember.entity.TeamMember;
 
 import java.util.UUID;

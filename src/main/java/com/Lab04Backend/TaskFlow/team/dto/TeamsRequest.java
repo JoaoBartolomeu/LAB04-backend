@@ -1,4 +1,4 @@
-package com.Lab04Backend.TaskFlow.dtos.teams;
+package com.Lab04Backend.TaskFlow.team.dto;
 
 import jakarta.validation.constraints.NotNull;
 

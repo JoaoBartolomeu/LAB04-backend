@@ -1,18 +1,16 @@
-package com.Lab04Backend.TaskFlow.services;
+package com.Lab04Backend.TaskFlow.member.service;
 
 import com.Lab04Backend.TaskFlow.boards.config.ResourceNotFoundException;
-import com.Lab04Backend.TaskFlow.dtos.member.MemberRequest;
-import com.Lab04Backend.TaskFlow.dtos.member.MemberResponse;
-import com.Lab04Backend.TaskFlow.dtos.member.TeamMemberResponse;
-import com.Lab04Backend.TaskFlow.models.Members;
-import com.Lab04Backend.TaskFlow.models.Teams;
-import com.Lab04Backend.TaskFlow.repositories.MemberRepository;
-import com.Lab04Backend.TaskFlow.repositories.TeamsRepository;
+import com.Lab04Backend.TaskFlow.member.dto.MemberRequest;
+import com.Lab04Backend.TaskFlow.member.dto.MemberResponse;
+import com.Lab04Backend.TaskFlow.member.dto.TeamMemberResponse;
+import com.Lab04Backend.TaskFlow.member.entity.Members;
+import com.Lab04Backend.TaskFlow.team.entity.Teams;
+import com.Lab04Backend.TaskFlow.member.repository.MemberRepository;
+import com.Lab04Backend.TaskFlow.team.repository.TeamsRepository;
 import com.Lab04Backend.TaskFlow.teammember.repository.TeamMemberRepository;
 import org.springframework.stereotype.Service;
 
-import java.lang.module.ResolutionException;
-import java.lang.reflect.Member;
 import java.util.List;
 import java.util.UUID;
 

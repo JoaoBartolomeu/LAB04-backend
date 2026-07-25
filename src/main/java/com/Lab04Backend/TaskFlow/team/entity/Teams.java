@@ -1,7 +1,7 @@
-package com.Lab04Backend.TaskFlow.models;
+package com.Lab04Backend.TaskFlow.team.entity;
 
 import com.Lab04Backend.TaskFlow.exceptions.IllegalRoleException;
-import com.Lab04Backend.TaskFlow.models.enums.MemberRole;
+import com.Lab04Backend.TaskFlow.member.enums.MemberRole;
 import com.Lab04Backend.TaskFlow.teammember.entity.TeamMember;
 import jakarta.persistence.*;
 import lombok.*;

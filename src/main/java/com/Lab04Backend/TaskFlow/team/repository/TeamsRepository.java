@@ -1,6 +1,6 @@
-package com.Lab04Backend.TaskFlow.repositories;
+package com.Lab04Backend.TaskFlow.team.repository;
 
-import com.Lab04Backend.TaskFlow.models.Teams;
+import com.Lab04Backend.TaskFlow.team.entity.Teams;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

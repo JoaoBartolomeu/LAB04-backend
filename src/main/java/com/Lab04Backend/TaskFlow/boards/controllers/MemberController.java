@@ -1,9 +1,9 @@
 package com.Lab04Backend.TaskFlow.members.controllers;
 
-import com.Lab04Backend.TaskFlow.dtos.member.MemberRequest;
-import com.Lab04Backend.TaskFlow.dtos.member.MemberResponse;
-import com.Lab04Backend.TaskFlow.dtos.member.TeamMemberResponse;
-import com.Lab04Backend.TaskFlow.services.MemberService;
+import com.Lab04Backend.TaskFlow.member.dto.MemberRequest;
+import com.Lab04Backend.TaskFlow.member.dto.MemberResponse;
+import com.Lab04Backend.TaskFlow.member.dto.TeamMemberResponse;
+import com.Lab04Backend.TaskFlow.member.service.MemberService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

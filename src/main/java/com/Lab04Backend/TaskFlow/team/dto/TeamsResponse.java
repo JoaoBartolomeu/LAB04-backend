@@ -1,10 +1,8 @@
-package com.Lab04Backend.TaskFlow.dtos.teams;
+package com.Lab04Backend.TaskFlow.team.dto;
 
-import com.Lab04Backend.TaskFlow.models.Members;
-import com.Lab04Backend.TaskFlow.models.Teams;
+import com.Lab04Backend.TaskFlow.team.entity.Teams;
 import com.Lab04Backend.TaskFlow.teammember.entity.TeamMember;
 
-import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
