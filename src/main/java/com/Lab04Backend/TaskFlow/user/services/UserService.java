@@ -7,7 +7,7 @@ import com.Lab04Backend.TaskFlow.user.entity.User;
 import com.Lab04Backend.TaskFlow.user.exceptions.EmailAlreadyExistsException;
 import com.Lab04Backend.TaskFlow.user.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -17,7 +17,7 @@ public class UserService {
     private final UserRepository repository;
     private final MemberRepository memberRepository;
 
-    private final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+    private final PasswordEncoder encoder;
 
     public User register(RegisterUserDTO dto) {
 
